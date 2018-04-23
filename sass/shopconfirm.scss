@@ -1,0 +1,64 @@
+@import "reset.scss";
+@import "header2.scss";
+@import "footer.scss";
+@import "sum.scss";
+@import "delivery.scss";
+@import "register1.scss";
+@import "register2.scss";
+@import "land.scss";
+@import "loginLogon.scss";
+h3{
+	width: 1300px;
+	font-size: 38px;
+	color: #666666;
+	text-align: center;
+	margin: 108px auto 0;
+	line-height: 50px;
+}
+.shopconfirm{
+	width: 1300px;
+	margin: 84px auto 0;
+	border-top: 2px solid #e3e2e2;
+	.confirmLeft{
+		float: left;
+		span{
+			display: block;
+			font-size: 25px;
+			color: #666666;
+			margin: 27px 0 0 118px;
+		}
+		.la{
+			color: #b89aab;
+		}
+		.la:hover{
+			color: red;
+		}
+		.first{
+			margin-top: 57px;
+		}
+		.second{
+			margin-top: 52px;
+		}
+	}
+	.confirmRight{
+		float: right;
+		margin: 57px 121px 0 0;
+		.inputBtn{
+			width: 261px;
+			margin-top: 13px;
+			input{
+				width: 261px;
+				height: 37px;
+				background-color: #9d6f89;
+				color: #d2c0ca;
+				font-size: 21px;
+				border: none;
+				margin-top: 18px;
+			}
+		}
+	}
+	.conDelivery{
+		margin-top: 488px;
+		margin-left: 137px;
+	}
+}

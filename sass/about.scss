@@ -1,0 +1,208 @@
+@import "reset.scss";
+@import "header.scss";
+@import "footer.scss";
+@import "register1.scss";
+@import "register2.scss";
+@import "land.scss";
+@import "loginLogon.scss";
+.navigation{
+	width: 1300px;
+	margin: 0 auto;
+	position: relative;
+	ul{
+		width: 428px;
+		height: 20px;
+		margin: 0 auto;
+		padding-top: 20px;
+		li{
+			a{
+				float: left;
+				margin-right: 52px;
+				font-size: 17px;
+				color: #6e6e6e;
+				font-style: italic;
+			}
+			.last{
+				margin-right: 0px;
+			}
+			a:hover{
+				color: red;
+			}
+		}
+	}
+}
+/* 关于META */
+.extreme{
+	width: 1300px;
+	margin: 137px auto 0;
+	text-align: center;
+	span{
+		font-size: 17px;
+		font-style: italic;
+		color: #6e6e6e;
+	}
+	div{
+		font-size: 75px;
+		color: #080808;
+		margin: 24px 0 27px;
+	}
+	i{
+		font-size: 33px;
+		color: #2d2d2d;
+		line-height: 40px;
+	}
+}
+/* 了解制作工厂 了解产品成本 了解你的需求 */
+.understeer{
+	width: 1403px;
+	height: 200px;
+	margin: 120px auto 0;
+	ul{
+		li{
+			width: 358px;
+			text-align: center;
+			float: left;
+			margin-left: 163px;
+			span{
+				display: block;
+				font-size: 25px;
+				color: #2d2d2d;
+				margin: 30px 0 41px;
+			}
+			p{
+				font-size: 12px;
+				color: #6e6e6e;
+				line-height: 15px;
+			}
+
+		}
+		.first1{
+			margin-left: 0px;
+		}
+	}
+}
+/* 顾客有权力去知道他们购买的产品来自哪里 并了解每件产品的成本 */
+.know{
+	width: 1300px;
+	margin: 290px auto 0;
+	text-align: center;
+	h3{
+		font-size: 42px;
+		color: #2d2d2d;
+		line-height: 48px;
+	}
+	p{
+		font-size: 21px;
+		color: #6e6e6e;
+		line-height: 26px;
+		margin-top: 83px 0;
+	}
+}
+/* 团队介绍 */
+.trem{
+	width: 1300px;
+	margin: 16px auto;
+	text-align: center;
+	padding-top: 60px;
+	span{
+		font-size: 17px;
+		font-style: italic;
+		color: #7f7f7f;
+	}
+	img{
+		display: block;
+		margin: 36px auto 0;
+	}
+	p{
+		font-size: 21px;
+		color: #6e6e6e;
+		line-height: 26px;
+		margin-top: 68px;
+	}
+}
+/* 媒体报道 */
+#media{
+	width: 1300px;
+	margin: 110px auto 0;
+	text-align: center;
+	padding-top: 60px;
+	span{
+		font-size: 17px;
+		font-style: italic;
+		color: #7f7f7f;
+		padding-bottom: 15px;
+	}
+	.logMedia{
+		width: 1027px;
+		height: 500px;
+		margin: 0 auto;
+		ul{
+			float: left;
+			margin-left: 76px;
+			li{
+				margin-top: 65px;
+				p{
+					font-size: 17px;
+					color: #333333;
+					line-height: 25px;
+					margin-top: 30px;
+				}
+			}
+		}
+		.log1{
+			margin-left: 0px;
+		}
+		.log2{
+			margin-top: 50px;
+		}
+		.log3{
+			margin-top: 60px;
+		}
+	}
+}
+/* 联系我们 */
+#contact{
+	width: 1300px;
+	margin: 215px auto 110px;
+	text-align: center;
+	padding-top: 60px;
+	.contact{
+		font-size: 17px;
+		font-style: italic;
+		color: #7f7f7f;
+		padding-bottom: 15px;
+	}
+	h3{
+		font-size: 42px;
+		color: #7f7f7f;
+		margin-top: 56px;
+		line-height: 49px;
+	}
+	div{
+		margin: 60px 0 70px;
+		.si{
+			margin-left: 34px;
+		}
+	}
+	.con{
+		display: block;
+		font-size: 21px;
+		color: #6e6e6e;
+		line-height: 25px;
+		i{
+			display: block;
+			color: #b392a5;
+			font-size: 21px;
+			line-height: 25px;
+		}
+		.i:hover{
+			color: red;
+		}
+		.cont{
+			display: inline;
+		}
+	}
+	.con1{
+		margin-top: 25px;
+	}
+}

@@ -1,0 +1,32 @@
+/* 价格合计 */
+.sum{
+	width: 229px;
+	height: 427px;
+	border: 1px solid #d6d4d4;
+	background-color: #f9f9f9;
+	padding: 0 15px;
+	div{
+		height: 84px;
+		line-height: 84px;
+		text-align: center;
+		border-top: 2px solid #e7e6e6;
+		color: #838383;
+		span{
+			font-size: 17px;
+		}
+		.le{
+			float: left;
+			margin-left: 13px;
+		}
+		.ri{
+			float: right;
+			margin-right: 18px;
+		}
+	}
+	.total{
+		height: 76px;
+		line-height: 76px;
+		border-top: none;
+		font-size: 21px;
+	}
+}

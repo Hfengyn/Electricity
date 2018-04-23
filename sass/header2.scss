@@ -1,0 +1,98 @@
+/* 头部 */
+header{
+	width: 1300px;
+	height: 255px;
+	margin: 0 auto;
+	position: relative;
+	.hTop{
+		width: 1300px;
+		.vip{
+			float: left;
+			font-size: 21px;
+			color: #666666;
+			padding-top: 9px;
+		}
+		.vip:hover{
+			color: red;
+		}
+		.hRight{
+			float: right;
+			.hrzi{
+				display: inline-block;
+				font-size: 17px;
+				color: #666666;
+				position: relative;
+				top: -55px;
+			}
+			i{
+				font-style: normal;
+				color: #c1c1c1;
+				position: relative;
+				top: -55px;
+			}
+			.login{
+				margin-right: 140px;
+			}
+			.shopping{
+				margin-right: 27px;
+			}
+			.shopBag{
+				display: inline-block;
+				width: 52px;
+				height: 80px;
+				background-image: url(../images/bag.png);
+			}
+			.hrzi:hover{
+				color: red;
+			}
+		}
+	}
+	.meta{
+		width: 1300px;
+		position: absolute;
+		top: 105px;
+		text-align: center;
+	}
+	nav{
+		width: 1300px;
+		position: absolute;
+		top: 222px;
+		li{
+			float: left;
+			width: 84px;
+			text-align: center;
+			margin-left: 185px;
+			div{
+				width: 29px;
+				height: 29px;
+				border-radius: 50%;
+				background-color: #b1afaf;
+				font-size: 21px;
+				line-height: 29px;
+				color: #fff;
+				text-align: center;
+				margin: 0 auto;
+			}
+			span{
+				display: inline-block;
+				font-size: 21px;
+				margin-top: 14px;
+				color: #999898;
+			}
+			.num1{
+				background-color: #c29bb1;
+			}
+			.num2{
+				background-color: #9d6f89;
+			}
+			.xinXi2{
+				color: #777777;
+			}
+			a:hover{
+				span{
+					color: red;
+				}
+			}
+		}
+	}
+}

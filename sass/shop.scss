@@ -1,0 +1,267 @@
+@import "reset.scss";
+@import "header.scss";
+@import "footer.scss";
+@import "register1.scss";
+@import "register2.scss";
+@import "land.scss";
+@import "loginLogon.scss";
+/* 放大镜 */
+.shape{
+	width: 1300px;
+	margin: 74px auto 0;
+	position: relative;
+	.xiao{
+		width: 591px;
+		height: 576px;
+		overflow: hidden;
+		.active{
+			display: block;
+		}
+		img{
+			display: none;
+		}
+		.pointer{
+			width: 150px;
+			height: 150px;
+			background: rgba(0,0,255,0.3);
+			position: absolute;
+			top: 0;
+			left: 0;
+			cursor: move;
+			display: none;
+		}
+	}
+	.xPic{
+		position: absolute;
+		top: 0;
+		left: 610px;
+		li{
+			margin-bottom: 17px;
+			cursor: pointer;
+		}
+		.pic4{
+			margin-bottom: 10px;
+		}
+	}
+	.big{
+		width: 591px;
+		height: 576px;
+		overflow: hidden;
+		position: absolute;
+		z-index: 5;
+		top: 0;
+		left: 610px;
+		display: none;
+		img{
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+	}
+	.shapeRg{
+		float: right;
+		width: 442px;
+		text-align: center;
+		position: relative;
+		top: -576px;
+		cursor: pointer;
+		span{
+			display: block;
+		}
+		.maiTa{
+			font-size: 54px;
+			color: #575656;
+		}
+		.price{
+			font-size: 33px;
+			color: #858585;
+			margin: 14px 0 16px;
+		}
+		i{
+			font-size: 17px;
+			color: #747373;
+			text-decoration: underline;
+		}
+		.colors{
+			font-size: 21px;
+			color: #ababab;
+			margin-top: 115px;
+		}
+		.col{
+			width: 266px;
+			height: 78px;
+			border: 1px solid #c7c8c8;
+			margin: 10px auto 0;
+			position: relative;
+			img{
+				position: absolute;
+				top: 15px;
+				left: 15px;
+			}
+			div{
+				position: absolute;
+				font-size: 17px;
+				color: #a3a3a3;
+			}
+			.col1{
+				top: 21px;
+				left: 82px;
+			}
+			.col2{
+				top: 41px;
+				left: 82px;
+			}
+		}
+		a{
+			display: block;
+			width: 266px;
+			height: 68px;
+			background-color: #9d6f89;
+			color: #e9e1e5;
+			font-size: 21px;
+			line-height: 68px;
+			margin: 33px auto 0;
+		}
+		.free{
+			font-size: 17px;
+			color: #a3a3a3;
+			margin-top: 24px;
+		}
+	}
+}
+/* 介绍 */
+.introduction{
+	width: 1300px;
+	height: 228px;
+	margin: 74px auto 0;
+	position: relative;
+	.detalls{
+		width: 429px;
+		.detallsE{
+			font-size: 21px;
+			color: #36363b;
+		}
+		div{
+			font-size: 17px;
+			color: #36363b;
+			line-height: 24px;
+			margin-top: 13px;
+		}
+		ul{
+			margin-top: 7px;
+			li{
+				list-style: disc;
+				margin-left: 17px;
+				font-size: 17px;
+				line-height: 25px;
+				color: #36363b;
+			}
+		}
+	}
+	.size{
+		width: 429px;
+		position: absolute;
+		top: 0;
+		left: 429px;
+		.sizeE{
+			font-size: 21px;
+			color: #36363b;
+		}
+		ul{
+			margin-top: 7px;
+			li{
+				list-style: disc;
+				margin-left: 17px;
+				font-size: 17px;
+				line-height: 25px;
+				color: #36363b;
+				i{
+					font-size: 17px;
+					font-style: normal;
+					color: #d58766;
+				}
+			}
+			span{
+				font-size: 17px;
+				line-height: 25px;
+				color: #36363b;
+			}
+		}
+	}
+	.factory{
+		width: 429px;
+		position: absolute;
+		top: 0;
+		left: 858px;
+		.factoryE{
+			font-size: 21px;
+			color: #36363b;
+		}
+		p{
+			margin-top: 7px;
+			list-style: disc;
+			font-size: 17px;
+			line-height: 25px;
+			color: #36363b;
+			i{
+				font-size: 17px;
+				font-style: normal;
+				color: #d58766;
+			}
+		}
+	}
+}
+/* 产品展示 */
+.people{
+	width: 1300px;
+	margin: 68px auto 0;
+	border-top: 2px solid #eaeaea;
+	.peoplen{
+		position: absolute;
+		span{
+			width: 1300px;
+			display: block;
+			font-size: 24px;
+			color: #353434;
+			text-align: center;
+			line-height: 61px;
+		}
+		ul{
+			
+			li{
+				float: left;
+				margin-left: 27px;
+			}
+			.first{
+				margin-left: 0px;
+			}
+		}
+	}
+}
+/* 透明成本 */
+.costPic{
+	width: 1300px;
+	height: 737px;
+	background-color: #a6a6a6;
+	margin: 433px auto 60px;
+	padding-top: 60px;
+	span{
+		display: block;
+		font-size: 17px;
+		color: #cfcfcf;
+		text-align: center;
+		
+	}
+	span:nth-child(2){
+		font-size: 54px;
+		color: #f8f8f8;
+		margin-top: 18px;
+	}
+	span:nth-child(3){
+		margin-top: 45px;
+	}
+	div{
+		text-align: center;
+		margin-top: 85px;
+	}
+}

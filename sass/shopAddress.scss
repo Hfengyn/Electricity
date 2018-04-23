@@ -1,0 +1,103 @@
+@import "reset.scss";
+@import "header2.scss";
+@import "footer.scss";
+@import "sum.scss";
+@import "delivery.scss";
+@import "register1.scss";
+@import "register2.scss";
+@import "land.scss";
+@import "loginLogon.scss";
+/* 输入您的收货地址 */
+h3{
+	width: 1300px;
+	font-size: 38px;
+	color: #666666;
+	text-align: center;
+	margin: 108px auto 0;
+}
+.shopAddress{
+	width: 1300px;
+	margin: 84px auto 0;
+	border-top: 2px solid #e3e2e2;
+	.place{
+		width: 521px;
+		float: left;
+		position: relative;
+		top: 10px;
+		left: 122px;
+		span{
+			display: block;
+			margin: 35px 0 10px;
+			color: #666666;
+		}
+		.tet{
+			width: 249px;
+			display: block;
+			height: 40px;
+			border: 1px solid #dedddd;
+			font-size: 21px;
+		}
+		.corporation{
+			position: absolute;
+			top: 0px;
+			left: 270px;
+		}
+		.corporation1{
+			position: absolute;
+			top: 61px;
+			left: 270px;
+		}
+		.addre{
+			width: 519px;
+		}
+		.addr2{
+			margin-top: 28px;
+		}
+		.country{
+			position: absolute;
+			top: 277px;
+			left: 270px;
+		}
+		.country1{
+			position: absolute;
+			top: 338px;
+			left: 270px;
+		}
+		.code{
+			position: absolute;
+			top: 383px;
+			left: 270px;
+		}
+		.code1{
+			position: absolute;
+			top: 441px;
+			left: 270px;
+		}
+		.but{
+			height: 53px;
+			border: none;
+			margin-top: 74px;
+			font-size: 21px;
+			cursor: pointer;
+		}
+		.but1{
+			width: 188px;
+			background-color: #b1afaf;
+			color: #ededed;
+		}
+		.but2{
+			width: 180px;
+			background-color: #9d6f89;
+			color: #e9e1e5;
+			float: right;
+		}
+	}
+	.sumRight{
+		float: right;
+		margin: 57px 121px 0 0;
+	}
+	.delivery{
+		margin-top: 687px;
+		margin-left: 137px;
+	}
+}

@@ -1,0 +1,95 @@
+.logonPlan {
+  width: 558px;
+  height: 570px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: #fff;
+  padding: 122px 0 0 41px;
+}
+
+.logonPlan .plan {
+  font-size: 37px;
+  text-align: center;
+  color: #3d3d3d;
+}
+
+.logonPlan p {
+  font-size: 19px;
+  color: #666666;
+  line-height: 27px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.logonPlan .email {
+  display: block;
+  font-size: 19px;
+  color: #666666;
+  padding-bottom: 7px;
+  margin-top: 19px;
+}
+
+.logonPlan .emailText {
+  width: 515px;
+  height: 36px;
+  margin-top: 0px;
+  font-size: 21px;
+}
+
+.logonPlan a {
+  display: block;
+  width: 521px;
+  font-size: 21px;
+  margin-top: 19px;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+}
+
+.logonPlan .create {
+  width: 519px;
+  height: 49px;
+  background-color: #c4a9b8;
+  color: #f1ecef;
+  line-height: 49px;
+  border: 1px solid #e3dfe1;
+}
+
+.logonPlan .microblog {
+  height: 46px;
+  background-color: #f1ead8;
+  color: #605d55;
+  line-height: 46px;
+}
+
+.logonPlan .microblog .sina {
+  position: absolute;
+  left: 25px;
+  top: 8px;
+}
+
+.logonPlan .qq {
+  width: 519px;
+  height: 46px;
+  background-color: #fff;
+  color: #605d55;
+  line-height: 46px;
+  border: 1px solid #e1e1e1;
+}
+
+.logonPlan .qq .QQ {
+  position: absolute;
+  left: 27px;
+  top: 7px;
+}
+
+.logonPlan .logonLogin {
+  width: 601px;
+  height: 55px;
+  border: none;
+  background-color: #000;
+  margin-top: 67px;
+  margin-left: -42px;
+  color: #d5d5d5;
+  text-decoration: underline;
+  line-height: 55px;
+}

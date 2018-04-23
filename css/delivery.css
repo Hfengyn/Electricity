@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* 购物车 */
+.commodity {
+  width: 728px;
+  border-top: 2px solid #e3e2e2;
+}
+
+.commodity .willSong {
+  font-size: 17px;
+  color: #666666;
+  margin-top: 5px;
+}
+
+.commodity .jiChu {
+  font-size: 17px;
+  color: #c0bfbf;
+  margin-top: 28px;
+}
+
+.commodity .jiaGe {
+  margin-top: 44px;
+}
+
+.commodity .jiaGe .jiaGeL {
+  position: relative;
+  top: -125px;
+}
+
+.commodity .jiaGe .jiaGeL h4 {
+  font-size: 17px;
+  color: #6b6b6b;
+  position: absolute;
+  top: 11px;
+  left: 166px;
+}
+
+.commodity .jiaGe .jiaGeL .sty {
+  font-size: 17px;
+  color: #6b6b6b;
+  position: absolute;
+  top: 53px;
+  left: 166px;
+}
+
+.commodity .jiaGe .jiaGeL .shu {
+  left: 289px;
+}
+
+.commodity .jiaGe .jiaGeL .price {
+  left: 403px;
+}
+
+.commodity .jiaGe .jiaGeL .junMa {
+  position: absolute;
+  top: 92px;
+  left: 166px;
+  color: #6b6b6b;
+}
+
+.commodity .jiaGe .jiaGeL .quantity {
+  position: absolute;
+  top: 83px;
+  left: 273px;
+}
+
+.commodity .jiaGe .jiaGeL .quantity .jian {
+  margin-right: 9px;
+  color: #aaaaaa;
+  cursor: pointer;
+}
+
+.commodity .jiaGe .jiaGeL .quantity .fang {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #cdcdcd;
+  line-height: 36px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.commodity .jiaGe .jiaGeL .quantity .jia {
+  margin-left: 7px;
+  color: #aaaaaa;
+  cursor: pointer;
+}
+
+.commodity .jiaGe .jiaGeL .heJi {
+  position: absolute;
+  top: 92px;
+  left: 399px;
+  color: #6b6b6b;
+}
+
+.commodity .jiaGe .jiaGeL .delete {
+  font-size: 16px;
+  color: #d1d1d1;
+  position: absolute;
+  right: 26px;
+  top: 11px;
+}
+
+.commodity .bor {
+  border-top: 4px solid #e6e6e6;
+  padding-top: 29px;
+  margin: 30px 0 77px 0;
+}

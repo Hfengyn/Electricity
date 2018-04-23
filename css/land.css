@@ -1,0 +1,105 @@
+.loginNei {
+  width: 599px;
+  height: 692px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: #fff;
+}
+
+.loginNei .hy {
+  width: 422px;
+  margin: 26px auto 0;
+  font-size: 25px;
+  text-align: center;
+  color: #666666;
+}
+
+.loginNei .logod {
+  text-align: center;
+  margin-top: 62px;
+}
+
+.loginNei .tong {
+  display: block;
+  width: 522px;
+  text-align: center;
+  position: relative;
+  font-size: 19px;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+.loginNei .sinad {
+  height: 46px;
+  color: #605d55;
+  background-color: #f1ead8;
+  line-height: 46px;
+  margin-top: 50px;
+}
+
+.loginNei .sinad img {
+  position: absolute;
+  top: 8px;
+  left: 25px;
+}
+
+.loginNei .qqd {
+  width: 518px;
+  height: 44px;
+  color: #605d55;
+  border: 2px solid #e0e1e1;
+  line-height: 44px;
+  margin-top: 19px;
+}
+
+.loginNei .qqd img {
+  position: absolute;
+  top: 6px;
+  left: 26px;
+}
+
+.loginNei span {
+  display: block;
+  font-size: 19px;
+  color: #666666;
+  margin: 20px 0 0 41px;
+}
+
+.loginNei input {
+  width: 516px;
+  height: 36px;
+  border: 2px solid #e3e3e3;
+  margin: 7px 0 0 40px;
+  font-size: 21px;
+}
+
+.loginNei .dl {
+  width: 520px;
+  height: 49px;
+  color: #e3d7dd;
+  background-color: #c4a9b8;
+  font-size: 21px;
+  line-height: 49px;
+  border: 1px solid #d1c2cb;
+  margin-top: 14px;
+}
+
+.loginNei .forget {
+  display: block;
+  text-decoration: none;
+  font-size: 17px;
+  color: #a3a3a3;
+  text-align: center;
+  margin-top: 23px;
+}
+
+.loginNei .logZu {
+  display: block;
+  width: 599px;
+  height: 55px;
+  background-color: #000;
+  color: #a3a3a3;
+  text-align: center;
+  font-size: 19px;
+  line-height: 55px;
+  margin: 27px auto 0;
+}

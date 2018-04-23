@@ -1,0 +1,26 @@
+doctype
+html
+	head
+		meta(charset="utf-8")
+		title META
+		link(rel="stylesheet",type="text/css",href="../css/shopconfirm.css")
+	body
+		include header2.jade
+		h3 您的订单已经准备好<br/>请确认以下信息
+		article.shopconfirm
+			div.confirmLeft
+				span.first 送货地址
+				span.second 王楠
+				span 电话：15991038007
+				span 中国上海市长宁区天山路1726弄
+				a(href="#")
+					span.la 选择其他收货地址
+			div.confirmRight
+				include sum.jade
+				div.inputBtn
+					input(type="button",value="支付宝支付")
+					input(type="button",value="微信支付")
+			div.conDelivery
+				include delivery.jade
+		include footer.jade
+		include loginLogon.jade

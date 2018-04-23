@@ -1,0 +1,78 @@
+@import "reset.scss";
+@import "header.scss";
+@import "footer.scss";
+@import "register1.scss";
+@import "register2.scss";
+@import "land.scss";
+@import "loginLogon.scss";
+/* 编辑您的账户信息 */
+.vip_jm{
+	width: 1300px;
+	padding-top: 90px;
+	margin: 0 auto 613px;
+	font-size: 20px;
+	.left{
+		width: 212px;
+		padding: 42px 0 0 39px;
+		float: left;
+		div{
+			margin-bottom: 23px;
+			a{
+				color: #6e6e6e;
+			}
+			a:hover{
+				color: red;
+			}
+		}
+	}
+	.right{
+		width: 440px;
+		float: left;
+		.bj{
+			height: 42px;
+			color: #6e6e6e;
+		}
+		.xx{
+			margin-bottom: 16px;
+			color: #6e6e6e;
+		}
+		.xm{
+			width: 207px;
+			height: 28px;
+			margin-bottom: 21px;
+			font-size: 17px;
+		}
+		.yx{
+			width: 434px;
+			height: 28px;
+			margin-bottom: 38px;
+			font-size: 17px;
+		}
+		.mm{
+			width: 434px;
+			height: 28px;
+			margin-bottom: 34px;
+			font-size: 17px;
+		}
+		.sex{
+			margin-bottom: 35px;
+			overflow: hidden;
+			.n{
+				margin-right: 80px;
+				color: #6e6e6e;
+				float: left;
+				input{
+					margin-left: 16px;
+				}
+			}
+		}
+		.save{
+			width: 194px;
+			height: 31px;
+			background: #808080;
+			text-align: center;
+			line-height: 31px;
+			color: #fffafa;
+		}
+	}
+}

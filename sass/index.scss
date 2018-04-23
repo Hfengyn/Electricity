@@ -1,0 +1,92 @@
+@import "reset.scss";
+@import "header.scss";
+@import "footer.scss";
+@import "register1.scss";
+@import "register2.scss";
+@import "land.scss";
+@import "loginLogon.scss";
+/* 轮播图 */
+.carousel{
+	height: 650px;
+	.lun{
+		li{
+			opacity: 0;
+			transition: 1s;
+			img{
+				min-height: 540px;
+				min-width: 1300px;
+				position: absolute;
+				overflow: hidden;
+			}
+		}
+		.active{
+			opacity: 1;
+		}
+	}
+	ol{
+		position: relative;
+		width: 108px;
+		margin: 0 auto;
+		top: 513px;
+		li{
+			float: left;
+			width: 6px;
+			height: 6px;
+			border-radius: 50%;
+			position: relative;
+			background-color: #fff;
+			margin-left: 30px;
+		}
+	}
+}
+.series{
+	width: 1260px;
+	margin: 0 auto;
+	.bag{
+		width: 1260px;
+		display: inline-block;
+		font-size: 25px;
+		color: #989898;
+		text-align: center;
+		margin-top: 27px;
+	}
+	.list{
+		margin-top: 47px;
+		li{
+			float: left;
+			margin-right: 15px;
+			a{
+				color: #9c9c9c;
+				img{
+					display: block;
+				}
+				.box{
+					// width: 405px;
+					height: 93px;
+					background-color: rgba(255,255,255,0.7);
+					font-size: 21px;
+					color: #868685;
+					line-height: 93px;
+					margin-top: -93px;
+					display: none;
+					position: relative;
+					z-index: 20;
+				}
+				span{
+					display: inline-block;
+					font-size: 20px;
+					margin: 20px 0 100px;
+				}
+			}
+			a:hover{
+				color: red;
+				.box{
+					display: block;
+				}
+			}
+		}
+	}
+}
+.fooerT{
+	margin-top: 77px;
+}

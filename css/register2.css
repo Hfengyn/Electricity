@@ -1,0 +1,56 @@
+.ready {
+  width: 595px;
+  height: 581px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: #fff;
+}
+
+.ready .finish {
+  font-size: 33px;
+  text-align: center;
+  color: #666666;
+  margin-top: 38px;
+}
+
+.ready span {
+  display: block;
+  font-size: 21px;
+  color: #666666;
+  margin: 25px 0 0 25px;
+}
+
+.ready span:nth-child(2) {
+  margin-top: 109px;
+}
+
+.ready input {
+  width: 516px;
+  height: 36px;
+  border: 2px solid #e3e3e3;
+  margin: 10px 0 0 25px;
+  font-size: 21px;
+}
+
+.ready a {
+  display: block;
+  width: 518px;
+  height: 42px;
+  background-color: #85737d;
+  font-size: 25px;
+  line-height: 42px;
+  color: #e5e2e3;
+  margin: 45px 0 0 25px;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+}
+
+.ready a div {
+  width: 139px;
+  height: 42px;
+  position: absolute;
+  z-index: 5;
+  right: 0;
+  top: 0;
+  background-color: #c4a9b8;
+}

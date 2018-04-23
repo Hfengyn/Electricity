@@ -1,0 +1,39 @@
+doctype
+html
+	head
+		meta(charset="utf-8")
+		title META
+		link(rel="stylesheet",type="text/css",href="../css/member.css")
+	body
+		include header.jade
+		div.vip_jm
+			div.left
+				div
+					a(href="#") 我的账户
+				div
+					a(href="#") 我的订单
+				div
+					a(href="#") 订单退换
+				div
+					a(href="#") 收货地址
+				div
+					a(href="index.html") 退出
+			div.right
+				div.bj 编辑您的账户信息
+				div.xx 姓名
+				input.xm(type="text")
+				div.xx 邮箱地址
+				input.yx(type="text")
+				div.xx 输入新密码
+				input.mm(type="password",style="appearance: none")
+				div.sex
+					div.n
+						span 男
+						input(type="radio",name="sex")
+					div.n
+						sapn 女
+						input(type="radio",name="sex")
+				a(href="#")
+					div.save 保存
+		include footer.jade
+		include loginLogon.jade

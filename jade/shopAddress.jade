@@ -1,0 +1,36 @@
+doctype
+html
+	head
+		meta(charset="utf-8")
+		title META
+		link(rel="stylesheet",type="text/css",href="../css/shopAddress.css")
+	body
+		include header2.jade
+		h3 输入您的收货地址
+		article.shopAddress
+			div.place
+				span 姓名
+				input.tet(type="text")
+				span.corporation 公司
+				input.tet.corporation1(type="text")
+				span.addr 街道地址
+				input.tet.addre(type="text")
+				input.tet.addre.addr2(type="text")
+				span 城市
+				input.tet(type="text")
+				span.country 国家
+				input.tet.country1(type="text")
+				span 省
+				input.tet(type="text")
+				span.code 邮政编码
+				input.tet.code1(type="text")
+				a(href="#")
+					input.but.but1(type="button",value="返回")
+				a(href="shopconfirm.html")
+					input.but.but2(type="button",value="继续")
+			div.sumRight
+				include sum.jade
+			div.delivery
+				include delivery.jade
+		include footer.jade
+		include loginLogon.jade

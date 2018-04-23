@@ -1,0 +1,89 @@
+/* 购物车 */
+.commodity{
+	width: 728px;
+	border-top: 2px solid #e3e2e2;
+	.willSong{
+		font-size: 17px;
+		color: #666666;
+		margin-top: 5px;
+	}
+	.jiChu{
+		font-size: 17px;
+		color: #c0bfbf;
+		margin-top: 28px;
+	}
+	.jiaGe{
+		margin-top: 44px;
+		.jiaGeL{
+			position: relative;
+			top: -125px;
+			h4{
+				font-size: 17px;
+				color: #6b6b6b;
+				position: absolute;
+				top: 11px;
+				left: 166px;
+			}
+			.sty{
+				font-size: 17px;
+				color: #6b6b6b;
+				position: absolute;
+				top: 53px;
+				left: 166px;
+			}
+			.shu{
+				left: 289px;
+			}
+			.price{
+				left: 403px;
+			}
+			.junMa{
+				position: absolute;
+				top: 92px;
+				left: 166px;
+				color: #6b6b6b;
+			}
+			.quantity{
+				position: absolute;
+				top: 83px;
+				left: 273px;
+				.jian{
+					margin-right: 9px;
+					color: #aaaaaa;
+					cursor: pointer;
+				}
+				.fang{
+					width: 36px;
+					height: 36px;
+					border: 1px solid #cdcdcd;
+					line-height: 36px;
+					text-align: center;
+					font-size: 15px;
+				}
+				.jia{
+					margin-left: 7px;
+					color: #aaaaaa;
+					cursor: pointer;
+				}
+			}
+			.heJi{
+				position: absolute;
+				top: 92px;
+				left: 399px;
+				color: #6b6b6b;
+			}
+			.delete{
+				font-size: 16px;
+				color: #d1d1d1;
+				position: absolute;
+				right: 26px;
+				top: 11px;
+			}
+		}
+	}
+	.bor{
+		border-top: 4px solid #e6e6e6;
+		padding-top: 29px;
+		margin: 30px 0 77px 0;
+	}
+}
